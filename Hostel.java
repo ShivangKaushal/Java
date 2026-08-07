@@ -1,8 +1,8 @@
 public class Hostel {
-    private String roomNumber;
-    private String studentName;
-    private String blockName;
-    private double monthlyFees;
+    private final String roomNumber;
+    private final String studentName;
+    private final String blockName;
+    private final double monthlyFees;
 
     public Hostel(final String roomNumber, final String studentName, final String blockName, final double monthlyFees) {
         this.roomNumber = roomNumber;
